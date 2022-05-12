@@ -1,0 +1,12 @@
+wipe = true
+no-tests = true
+
+[psql]
+  dbname = "postgres"
+  host   = "localhost"
+  port   = 8080
+  user   = "postgres"
+  pass   = "Singhasan26!"
+  schema = "public"
+  sslmode = "disable"
+  blacklist = ["schema_migrations"]
